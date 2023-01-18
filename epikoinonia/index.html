@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="generator" content="Primo" />
+    <title>Μυτκόλλι Κατασκευαστική | Επικοινωνία</title><!-- HEAD_svelte-1x98ui1_START -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://zzyumdkmbkvyfpswmpyz.supabase.co">
+    <meta name="description" content="Επικοινωνήστε μαζί μας για προσφορές &amp; εκτιμήσεις εργασιών κατασκευής ή ανακαίνισης">
+    <meta name="twitter:title" content="Μυτκόλλι Κατασκευαστική | Επικοινωνία">
+    <meta name="twitter:site" content="@mytkolliconstructions">
+    <meta name="twitter:handle" content="@mytkolliconstructions">
+    <meta name="twitter:cardType" content="summary">
+    <meta name="twitter:description" content="Επικοινωνήστε μαζί μας για προσφορές &amp; εκτιμήσεις εργασιών κατασκευής ή ανακαίνισης">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Μυτκόλλι Κατασκευαστική | Επικοινωνία">
+    <meta property="og:description" content="Επικοινωνήστε μαζί μας για προσφορές &amp; εκτιμήσεις εργασιών κατασκευής ή ανακαίνισης">
+    <meta property="og:url" content="https://www.myconstructions.gr/">
+    <meta property="og:locale" content="el">
+    <meta property="og:site_name" content="Μυτκόλλι Κατασκευαστική | Μονώσεις - Δάπεδα - Εργολαβίες">
+    <link rel="icon" href="https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/favicon.png">
+    <style>
+        @import url("https://unpkg.com/@primo-app/primo@1.3.64/reset.css");
+
+        html {
+
+            /* Colors */
+            --color-primary: #ffc329;
+            --color-white: #fff;
+            --color-black: #000;
+            --color-gray: #242424;
+            --color-dark: #0f0f0f;
+            --color-text: #727272;
+            --border-color: #c1c1c1;
+
+            /* Default property values */
+            --padding: 1rem;
+            --box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+            --border-radius: 0;
+            --max-width: 1200px;
+            --transition: 0.3s all ease-in-out;
+        }
+
+        .primo-page {
+            font-family: Arimo, sans-serif;
+            color: var(--color-text);
+            line-height: 1.6;
+            font-size: 1rem;
+            background: var(--color-white);
+            position: relative;
+        }
+
+        .primo-section .primo-content {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: var(--padding);
+        }
+
+        .primo-section .primo-content img {
+            width: 100%;
+            margin: 2rem 0;
+            box-shadow: var(--box-shadow);
+            border-radius: var(--border-radius);
+        }
+
+        .primo-section .primo-content p {
+            padding: 0.25rem 0;
+            line-height: 1.5;
+        }
+
+        .primo-section .primo-content a {
+            text-decoration: none;
+        }
+
+        .primo-section .primo-content a:hover {
+            color: var(--color-primary);
+        }
+
+        .primo-section .primo-content h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .primo-section .primo-content h2 {
+            font-size: 2.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .primo-section .primo-content h3 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .primo-section .primo-content ul {
+            list-style: disc;
+            padding: 0.5rem 0;
+            padding-left: 1.25rem;
+        }
+
+        .primo-section .primo-content ol {
+            list-style: decimal;
+            padding: 0.5rem 0;
+            padding-left: 1.25rem;
+        }
+
+        .primo-section .primo-content blockquote {
+            padding: 2rem;
+            box-shadow: var(--box-shadow);
+            border-radius: var(--border-radius);
+        }
+
+        .section-container,
+        .section.has-content {
+            max-width: var(--max-width, 1200px);
+            margin: 0 auto;
+            padding: 0 var(--padding, 1rem);
+        }
+
+        .heading {
+            font-size: 3rem;
+            line-height: 1;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .button {
+            background: var(--color-dark);
+            border-radius: 3px;
+            padding: 8px 20px;
+            transition: var(--transition);
+            color: var(--color-white);
+        }
+
+        .button:hover {
+            background: var(--color-primary);
+            color: var(--color-black);
+        }
+
+        .button.inverted {
+            background: var(--color-primary);
+            color: var(--color-black);
+        }
+
+        .button.inverted:hover {
+            background: var(--color-white);
+        }
+
+        a {
+            transition: var(--transition);
+        }
+
+        body .primo-section.has-component {
+            position: relative;
+        }
+
+        body .primo-section.has-component.visible {
+            min-height: auto;
+        }
+
+        li>a {
+            display: block;
+        }
+
+        #page .section.component-nqfta {
+            z-index: 2;
+        }
+    </style><!-- HEAD_svelte-1x98ui1_END -->
+    <style>
+        #top-bar.svelte-3dvnpj.svelte-3dvnpj.svelte-3dvnpj.svelte-3dvnpj {
+            background-color: #f9f9f9
+        }
+
+        #top-bar.svelte-3dvnpj .section-container.svelte-3dvnpj.svelte-3dvnpj.svelte-3dvnpj {
+            display: flex;
+            padding: 1rem
+        }
+
+        #top-bar.svelte-3dvnpj .section-container a.svelte-3dvnpj.svelte-3dvnpj.svelte-3dvnpj {
+            display: flex;
+            align-items: center;
+            -moz-column-gap: 3px;
+            column-gap: 3px
+        }
+
+        #top-bar.svelte-3dvnpj .section-container a.svelte-3dvnpj.svelte-3dvnpj.svelte-3dvnpj:hover {
+            color: var(--color-primary)
+        }
+
+        #top-bar.svelte-3dvnpj .section-container.svelte-3dvnpj>div.svelte-3dvnpj.svelte-3dvnpj {
+            flex-grow: 1;
+            display: flex;
+            wrap: no-wrap;
+            -moz-column-gap: 10px;
+            column-gap: 10px
+        }
+
+        #top-bar.svelte-3dvnpj .section-container.svelte-3dvnpj>div.svelte-3dvnpj.svelte-3dvnpj:last-child {
+            justify-content: flex-end
+        }
+
+        #top-bar.svelte-3dvnpj .section-container .info.svelte-3dvnpj>a.svelte-3dvnpj>span.svelte-3dvnpj,
+        #top-bar.svelte-3dvnpj .section-container .info.svelte-3dvnpj>a.svelte-3dvnpj.svelte-3dvnpj::after {
+            display: none
+        }
+
+        .cryptedmail.svelte-3dvnpj.svelte-3dvnpj.svelte-3dvnpj.svelte-3dvnpj::after {
+            content: attr(data-name) "@" attr(data-domain) "." attr(data-tld)
+        }
+
+        @media screen and (min-width: 460px) {
+
+            #top-bar.svelte-3dvnpj .section-container .info.svelte-3dvnpj>a.svelte-3dvnpj>span.svelte-3dvnpj,
+            #top-bar.svelte-3dvnpj .section-container .info.svelte-3dvnpj>a.svelte-3dvnpj.svelte-3dvnpj::after {
+                display: inline-block
+            }
+        }
+
+        header.svelte-1ekzptq.svelte-1ekzptq.svelte-1ekzptq {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 0.5rem 0
+        }
+
+        header.stuck.svelte-1ekzptq.svelte-1ekzptq.svelte-1ekzptq {
+            box-shadow: 0 0 10px var(--color-dark);
+            background-color: var(--color-white)
+        }
+
+        header.stuck.svelte-1ekzptq nav .logo svg .st0.svelte-1ekzptq.svelte-1ekzptq {
+            fill: var(--color-dark)
+        }
+
+        header.stuck.svelte-1ekzptq nav .logo>ul>li a.link.svelte-1ekzptq.svelte-1ekzptq {
+            color: var(--color-dark)
+        }
+
+        header.stuck.svelte-1ekzptq nav .logo>ul>li a.link.svelte-1ekzptq.svelte-1ekzptq:hover {
+            color: var(--color-primary)
+        }
+
+        header.stuck.svelte-1ekzptq nav .logo>ul>li ul.submenu.svelte-1ekzptq.svelte-1ekzptq {
+            box-shadow: 0 1px 5px var(--color-text)
+        }
+
+        .section-container.svelte-1ekzptq.svelte-1ekzptq.svelte-1ekzptq {
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+
+        nav.svelte-1ekzptq.svelte-1ekzptq.svelte-1ekzptq {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem
+        }
+
+        nav.svelte-1ekzptq .logo.svelte-1ekzptq.svelte-1ekzptq {
+            margin-right: 1.5rem
+        }
+
+        nav.svelte-1ekzptq .logo svg.svelte-1ekzptq.svelte-1ekzptq {
+            height: 60px
+        }
+
+        nav.svelte-1ekzptq .logo svg .st0.svelte-1ekzptq.svelte-1ekzptq {
+            fill: var(--color-dark)
+        }
+
+        nav.svelte-1ekzptq .logo svg .st1.svelte-1ekzptq.svelte-1ekzptq {
+            fill: #224B79
+        }
+
+        nav.svelte-1ekzptq .logo svg .st2.svelte-1ekzptq.svelte-1ekzptq {
+            fill: #FFC329
+        }
+
+        nav.svelte-1ekzptq>ul.svelte-1ekzptq.svelte-1ekzptq {
+            display: none;
+            gap: 15px
+        }
+
+        nav.svelte-1ekzptq>ul.svelte-1ekzptq>li.svelte-1ekzptq {
+            position: relative
+        }
+
+        nav.svelte-1ekzptq>ul>li a.link.svelte-1ekzptq.svelte-1ekzptq {
+            font-weight: bold;
+            color: var(--color-dark);
+            transition: var(--transition)
+        }
+
+        nav.svelte-1ekzptq>ul>li a.link.svelte-1ekzptq.svelte-1ekzptq:hover {
+            color: var(--color-primary)
+        }
+
+        nav.svelte-1ekzptq>ul>li ul.submenu.svelte-1ekzptq.svelte-1ekzptq {
+            position: absolute;
+            max-height: 0;
+            width: 10rem;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out, padding 0s ease 0.3s;
+            background: var(--color-white);
+            box-shadow: 0 1px 5px var(--color-text)
+        }
+
+        nav.svelte-1ekzptq>ul>li ul.submenu li.svelte-1ekzptq.svelte-1ekzptq {
+            display: block;
+            padding: 0.5rem 0
+        }
+
+        nav.svelte-1ekzptq>ul>li ul.submenu li a.sublink.svelte-1ekzptq.svelte-1ekzptq {
+            color: var(--color-dark);
+            transition: var(--transition)
+        }
+
+        nav.svelte-1ekzptq>ul>li ul.submenu li a.sublink.svelte-1ekzptq.svelte-1ekzptq:hover {
+            color: var(--color-primary)
+        }
+
+        nav.svelte-1ekzptq>ul>li:hover ul.submenu.svelte-1ekzptq.svelte-1ekzptq {
+            max-height: 1000px;
+            padding: 0.5rem;
+            transition: max-height 0.3s ease-in-out, padding 0s ease 0s
+        }
+
+        nav.svelte-1ekzptq button#close.svelte-1ekzptq.svelte-1ekzptq {
+            display: none
+        }
+
+        .call-to-action.svelte-1ekzptq.svelte-1ekzptq.svelte-1ekzptq {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-left: auto
+        }
+
+        .call-to-action.svelte-1ekzptq a.svelte-1ekzptq.svelte-1ekzptq {
+            display: none
+        }
+
+        .call-to-action.svelte-1ekzptq a.svelte-1ekzptq.svelte-1ekzptq:hover {
+            background-color: var(--color-gray);
+            color: var(--color-white)
+        }
+
+        button#open.svelte-1ekzptq svg.svelte-1ekzptq.svelte-1ekzptq {
+            fill: var(--color-dark);
+            transition: var(--transition)
+        }
+
+        button#open.svelte-1ekzptq:hover svg.svelte-1ekzptq.svelte-1ekzptq {
+            fill: var(--color-primary)
+        }
+
+        nav#mobile-nav.svelte-1ekzptq.svelte-1ekzptq.svelte-1ekzptq {
+            position: absolute;
+            flex-direction: column;
+            text-align: center;
+            background-color: var(--background-color, white);
+            box-shadow: var(--box-shadow);
+            border-radius: var(--border-radius);
+            left: 0.5rem;
+            top: 0.5rem;
+            right: 0.5rem;
+            padding: 2rem
+        }
+
+        nav#mobile-nav.svelte-1ekzptq a.logo.svelte-1ekzptq.svelte-1ekzptq {
+            margin-right: 0
+        }
+
+        nav#mobile-nav.svelte-1ekzptq a.logo.svelte-1ekzptq svg .st0.svelte-1ekzptq {
+            fill: var(--color-dark)
+        }
+
+        nav#mobile-nav.svelte-1ekzptq a.logo.svelte-1ekzptq svg .st1.svelte-1ekzptq {
+            fill: #224B79
+        }
+
+        nav#mobile-nav.svelte-1ekzptq a.logo.svelte-1ekzptq svg .st2.svelte-1ekzptq {
+            fill: #FFC329
+        }
+
+        nav#mobile-nav.svelte-1ekzptq a.link.svelte-1ekzptq.svelte-1ekzptq {
+            display: block;
+            font-weight: bold;
+            transition: var(--transition)
+        }
+
+        nav#mobile-nav.svelte-1ekzptq a.link.svelte-1ekzptq.svelte-1ekzptq:hover {
+            color: var(--color-primary)
+        }
+
+        nav#mobile-nav.svelte-1ekzptq hr.svelte-1ekzptq.svelte-1ekzptq {
+            width: 100%
+        }
+
+        nav#mobile-nav.svelte-1ekzptq .button.svelte-1ekzptq.svelte-1ekzptq {
+            width: 100%;
+            font-weight: bold;
+            justify-content: center;
+            color: var(--color-white)
+        }
+
+        nav#mobile-nav.svelte-1ekzptq .button.svelte-1ekzptq.svelte-1ekzptq:hover {
+            color: var(--color-black)
+        }
+
+        nav#mobile-nav.svelte-1ekzptq button#close.svelte-1ekzptq.svelte-1ekzptq {
+            display: block;
+            position: absolute;
+            right: 1rem;
+            top: 1rem
+        }
+
+        nav#mobile-nav.svelte-1ekzptq button#close svg.svelte-1ekzptq.svelte-1ekzptq {
+            color: var(--color-dark);
+            width: 1.5rem;
+            height: 1.5rem;
+            transition: var(--transition)
+        }
+
+        nav#mobile-nav.svelte-1ekzptq button#close:hover svg.svelte-1ekzptq.svelte-1ekzptq {
+            color: var(--color-primary)
+        }
+
+        @media(min-width: 900px) {
+
+            #open.svelte-1ekzptq.svelte-1ekzptq.svelte-1ekzptq,
+            #mobile-nav.svelte-1ekzptq.svelte-1ekzptq.svelte-1ekzptq {
+                display: none
+            }
+
+            nav.svelte-1ekzptq>ul.svelte-1ekzptq.svelte-1ekzptq {
+                display: flex
+            }
+
+            .call-to-action.svelte-1ekzptq a.svelte-1ekzptq.svelte-1ekzptq {
+                display: inline-block
+            }
+        }
+
+        .svelte-1tuhct5.svelte-1tuhct5.svelte-1tuhct5 {
+            --max-width: 1000px
+        }
+
+        .section-container.svelte-1tuhct5.svelte-1tuhct5.svelte-1tuhct5 {
+            display: grid;
+            gap: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 3rem
+        }
+
+        .section-container.svelte-1tuhct5 .branches.svelte-1tuhct5.svelte-1tuhct5 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem
+        }
+
+        .section-container.svelte-1tuhct5 .branches.svelte-1tuhct5>div.svelte-1tuhct5 {
+            flex: 0 0 auto
+        }
+
+        .section-container.svelte-1tuhct5 .branches>div h3.svelte-1tuhct5.svelte-1tuhct5 {
+            font-weight: bold;
+            color: var(--color-black)
+        }
+
+        .section-container.svelte-1tuhct5 .branches>div a.svelte-1tuhct5.svelte-1tuhct5:hover {
+            color: var(--color-primary)
+        }
+
+        form.svelte-1tuhct5.svelte-1tuhct5.svelte-1tuhct5 {
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.04);
+            border-radius: var(--border-radius);
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 2rem
+        }
+
+        form.svelte-1tuhct5 input.svelte-1tuhct5.svelte-1tuhct5,
+        form.svelte-1tuhct5 textarea.svelte-1tuhct5.svelte-1tuhct5 {
+            border-radius: 4px;
+            border: 1.5px solid var(--border-color);
+            padding: 0.5rem;
+            outline-color: transparent;
+            transition: 0.2s outline-color
+        }
+
+        form.svelte-1tuhct5 input.svelte-1tuhct5.svelte-1tuhct5:focus,
+        form.svelte-1tuhct5 textarea.svelte-1tuhct5.svelte-1tuhct5:focus {
+            outline-color: var(--color-accent)
+        }
+
+        form.svelte-1tuhct5 .button.svelte-1tuhct5.svelte-1tuhct5 {
+            align-self: flex-end
+        }
+
+        .cryptedmail.svelte-1tuhct5.svelte-1tuhct5.svelte-1tuhct5::after {
+            content: attr(data-name) "@" attr(data-domain) "." attr(data-tld)
+        }
+
+        @media(min-width: 700px) {
+            .section-container.svelte-1tuhct5.svelte-1tuhct5.svelte-1tuhct5 {
+                grid-template-columns: 1fr 1fr;
+                gap: 5rem
+            }
+
+            .section-container.svelte-1tuhct5 .branches.svelte-1tuhct5.svelte-1tuhct5 {
+                flex-direction: row
+            }
+        }
+
+        footer.svelte-6j66jl.svelte-6j66jl.svelte-6j66jl {
+            background-color: var(--color-gray)
+        }
+
+        footer.svelte-6j66jl .section-container.svelte-6j66jl.svelte-6j66jl {
+            display: grid;
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+            padding: 2rem 1rem;
+            color: var(--color-white)
+        }
+
+        footer.svelte-6j66jl .section-container h3.svelte-6j66jl.svelte-6j66jl {
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem
+        }
+
+        footer.svelte-6j66jl .section-container svg.svelte-6j66jl.svelte-6j66jl {
+            width: 15rem;
+            margin-bottom: 0.5rem
+        }
+
+        footer.svelte-6j66jl .section-container svg .st0.svelte-6j66jl.svelte-6j66jl {
+            fill: var(--color-white)
+        }
+
+        footer.svelte-6j66jl .section-container svg .st2.svelte-6j66jl.svelte-6j66jl {
+            fill: #ffc329
+        }
+
+        footer.svelte-6j66jl .section-container svg .st1.svelte-6j66jl.svelte-6j66jl {
+            fill: #224B79
+        }
+
+        footer.svelte-6j66jl .section-container>div li.svelte-6j66jl.svelte-6j66jl {
+            display: flex;
+            gap: 10px;
+            margin: 0.5rem 0
+        }
+
+        footer.svelte-6j66jl .section-container>div li a.svelte-6j66jl.svelte-6j66jl:hover {
+            color: var(--color-primary)
+        }
+
+        footer.svelte-6j66jl .section-container input.svelte-6j66jl.svelte-6j66jl {
+            padding: 0.25rem 0.5rem;
+            width: 100%;
+            margin: 1rem 0;
+            color: #000
+        }
+
+        footer.svelte-6j66jl .section-container button.svelte-6j66jl.svelte-6j66jl {
+            margin: 0 auto;
+            display: block
+        }
+
+        footer.svelte-6j66jl .copyright.svelte-6j66jl.svelte-6j66jl {
+            background-color: var(--color-dark);
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.8rem
+        }
+
+        footer table th,
+        footer table td {
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            padding: 0.2rem
+        }
+
+        @media screen and (min-width: 600px) {
+            footer.svelte-6j66jl .section-container.svelte-6j66jl.svelte-6j66jl {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr)
+            }
+
+            footer.svelte-6j66jl .section-container.svelte-6j66jl>div.svelte-6j66jl:last-child {
+                grid-area: 2 / 1 / 3 / 3
+            }
+        }
+
+        @media screen and (min-width: 800px) {
+            footer.svelte-6j66jl .section-container.svelte-6j66jl.svelte-6j66jl {
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 1fr
+            }
+
+            footer.svelte-6j66jl .section-container.svelte-6j66jl>div.svelte-6j66jl:last-child {
+                grid-area: initial
+            }
+        }
+    </style>
+</head>
+
+<body id="page">
+
+    <div class="section has-component" id="mnllo">
+        <div class="component">
+            <section id="top-bar" class="svelte-3dvnpj">
+                <div class="section-container svelte-3dvnpj">
+                    <div class="social svelte-3dvnpj"><a href="https://fb.com/mytkolliconstructions" title="Ακολουθήστε μας στο facebook" target="_social" class="svelte-3dvnpj"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden role="img" width="20" height="20" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START -->
+                                <path fill="currentColor" d="M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02Z" /><!-- HTML_TAG_END -->
+                            </svg>
+                        </a><a href="https://g.page/r/CeRvtYi5x5gKEAI" title="Βρείτε μας στο google" target="_social" class="svelte-3dvnpj"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden role="img" width="20" height="20" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START -->
+                                <path fill="currentColor" d="M21.35 11.1h-9.17v2.73h6.51c-.33 3.81-3.5 5.44-6.5 5.44C8.36 19.27 5 16.25 5 12c0-4.1 3.2-7.27 7.2-7.27c3.09 0 4.9 1.97 4.9 1.97L19 4.72S16.56 2 12.1 2C6.42 2 2.03 6.8 2.03 12c0 5.05 4.13 10 10.22 10c5.35 0 9.25-3.67 9.25-9.09c0-1.15-.15-1.81-.15-1.81Z" /><!-- HTML_TAG_END -->
+                            </svg>
+                        </a></div>
+                    <div class="info svelte-3dvnpj"><a href="tel:6937279097" title="Πάρτε μας τηλέφωνο" class="svelte-3dvnpj"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden role="img" width="20" height="20" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START -->
+                                <path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.25c1.12.37 2.32.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2Z" /><!-- HTML_TAG_END -->
+                            </svg><span class="svelte-3dvnpj">6937 2790 97</span></a>
+                        <a href="#" title="Στείλτε μας email" class="cryptedmail svelte-3dvnpj" data-name="info" data-domain="myconstructions" data-tld="gr"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden role="img" width="20" height="20" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START -->
+                                <path fill="currentColor" d="M12 15c.81 0 1.5-.3 2.11-.89c.59-.61.89-1.3.89-2.11c0-.81-.3-1.5-.89-2.11C13.5 9.3 12.81 9 12 9c-.81 0-1.5.3-2.11.89C9.3 10.5 9 11.19 9 12c0 .81.3 1.5.89 2.11c.61.59 1.3.89 2.11.89m0-13c2.75 0 5.1 1 7.05 2.95C21 6.9 22 9.25 22 12v1.45c0 1-.35 1.85-1 2.55c-.7.67-1.5 1-2.5 1c-1.2 0-2.19-.5-2.94-1.5c-1 1-2.18 1.5-3.56 1.5c-1.37 0-2.55-.5-3.54-1.46C7.5 14.55 7 13.38 7 12c0-1.37.5-2.55 1.46-3.54C9.45 7.5 10.63 7 12 7c1.38 0 2.55.5 3.54 1.46C16.5 9.45 17 10.63 17 12v1.45c0 .41.16.77.46 1.08c.3.31.65.47 1.04.47c.42 0 .77-.16 1.07-.47c.3-.31.43-.67.43-1.08V12c0-2.19-.77-4.07-2.35-5.65S14.19 4 12 4c-2.19 0-4.07.77-5.65 2.35S4 9.81 4 12c0 2.19.77 4.07 2.35 5.65S9.81 20 12 20h5v2h-5c-2.75 0-5.1-1-7.05-2.95C3 17.1 2 14.75 2 12s1-5.1 2.95-7.05C6.9 3 9.25 2 12 2Z" /><!-- HTML_TAG_END -->
+                            </svg></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="section has-component" id="hurnv">
+        <div class="component">
+            <header id="nav" class="svelte-1ekzptq">
+                <div class="section-container svelte-1ekzptq">
+                    <nav class="svelte-1ekzptq"><a href="/" class="logo svelte-1ekzptq"><svg viewBox="0 0 1790 322" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" class="svelte-1ekzptq">
+                                <polygon class="st0 svelte-1ekzptq" points="173 105.8 122.6 0.2 5 249.8 105.8 249.8"></polygon>
+                                <polyline class="st0 svelte-1ekzptq" points="355.5 146.6 406.2 249.8 507 249.8 405.9 38.6"></polyline>
+                                <polyline class="st1 svelte-1ekzptq" points="158.6 137 173 105.8 122.6 0.2"></polyline>
+                                <polyline class="st1 svelte-1ekzptq" points="355.4 146.6 367.5 170.6 405.9 38.6 405.8 38.6"></polyline>
+                                <polygon class="st2 svelte-1ekzptq" points="324.8 213 405.9 38.6 307.8 38.6 274.8 108 223.5 0.2 122.6 0.2 224.3 213.8 224.6 213.8 173.4 321.8 274.2 321.8 324.4 213.8 325.2 213.8"></polygon>
+                                <rect class="st2 svelte-1ekzptq" x="1436.9" y="24.6" width="25.4" height="39.4"></rect>
+                                <path class="st0 svelte-1ekzptq" d="m625.8 69.3c-6.8 0-13.1 1.7-18.8 5.1-5.8 3.4-10.7 8.3-14.8 14.7s-7.3 14.4-9.6 23.8c-2.3 9.5-3.5 20.3-3.5 32.4s1.1 22.7 3.2 31.8 5.1 16.8 9.1 22.9c3.9 6.1 8.8 10.8 14.4 13.9 5.7 3.1 12.1 4.7 19.3 4.7 5.2 0 10.4-0.6 15.8-1.8s10.4-3 15.1-5.4v32.4c-4.8 2-9.9 3.7-15.4 4.8-5.5 1.2-11.2 1.8-17.2 1.8-11.6 0-21.7-2.5-30.5-7.4-8.8-5-16.1-12-22-21s-10.3-19.9-13.3-32.5-4.4-26.5-4.4-41.8c0-15.6 1.6-30.2 4.7-43.5 3.2-13.4 7.7-25 13.7-34.8s13.4-17.5 22.4-23.2c9-5.6 19.1-8.5 30.4-8.6 5.8 0 11.3 0.6 16.4 1.8 5.2 1.2 9.8 2.8 14 5v31.9c-5.4-2.6-10.5-4.3-15.2-5.4s-9.3-1.6-13.8-1.6z"></path>
+                                <path class="st0 svelte-1ekzptq" d="m772.9 172.4c0 11.7-1.2 22.3-3.5 31.9s-5.6 17.8-10 24.7c-4.3 6.8-9.5 12.1-15.7 15.9-6.1 3.7-13 5.6-20.5 5.6-7.8 0-14.7-1.9-20.9-5.6s-11.4-9-15.7-15.9c-4.3-6.8-7.6-15.1-9.9-24.7s-3.4-20.2-3.4-31.9 1.2-22.3 3.5-31.9 5.6-17.8 10-24.7c4.3-6.8 9.5-12.1 15.7-15.9 6.1-3.7 13-5.6 20.5-5.6 7.8 0 14.7 1.9 20.9 5.6s11.4 9 15.7 15.9c4.3 6.8 7.6 15.1 9.9 24.7 2.2 9.6 3.4 20.2 3.4 31.9zm-25.1 0c0-7.9-0.6-14.8-1.8-20.9-1.2-6-2.9-11.1-5.1-15.2s-4.8-7.2-7.9-9.2-6.4-3.1-10-3.1c-3.5 0-6.8 1-9.9 3.1-3 2-5.6 5.1-7.8 9.2s-3.9 9.1-5.1 15.2c-1.2 6-1.8 13-1.8 20.9s0.6 14.8 1.8 20.9c1.2 6 2.9 11.1 5.2 15.1 2.2 4 4.8 7.1 7.9 9.2 3 2.1 6.3 3.1 10 3.1 3.6 0 6.9-1 9.9-3.1s5.6-5.2 7.8-9.2 3.9-9.1 5.1-15.1c1.1-6.1 1.7-13.1 1.7-20.9z"></path>
+                                <path class="st0 svelte-1ekzptq" d="m816.6 118.7h0.4c1.4-3.1 3.2-6.1 5.4-9 2.2-3 4.7-5.6 7.5-7.8s5.9-4.1 9.2-5.4c3.4-1.4 7-2.1 10.8-2.1 3.6 0 7.1 0.6 10.5 1.8s6.4 3.1 9.2 5.7 5.3 6 7.4 10.1 3.8 9.1 5.1 14.8c0.7 3.2 1.1 6.6 1.4 10.3 0.2 3.7 0.4 8 0.4 13v96.4h-24.2v-90.8c0-4-0.1-7.4-0.3-10.3s-0.6-5.4-1.1-7.5c-1.2-4.7-3.1-8.1-5.6-10.1s-5.5-3.1-9-3.1c-4.7 0-9.2 1.7-13.5 5s-8.2 8.2-11.5 14.5v102.3h-24.2v-148.5h20l2.1 20.7z"></path>
+                                <path class="st0 svelte-1ekzptq" d="m954.1 203.5c0-3.2-0.6-5.8-1.8-7.8s-2.8-3.8-4.7-5.1c-2-1.4-4.2-2.6-6.8-3.6s-5.2-2-8-3.1c-3.5-1.4-6.9-3.1-10.2-5s-6.1-4.4-8.6-7.4c-2.5-3.1-4.5-6.9-5.9-11.6-1.5-4.6-2.2-10.3-2.2-17.1 0-8.3 1-15.5 3-21.5 2-6.1 4.6-11.1 8-15.1s7.3-6.9 11.7-8.9c4.5-1.9 9.2-2.9 14.1-2.9 6.1 0 11.7 0.7 17.1 2.2 5.3 1.5 10.1 3.4 14.4 5.7v29.6c-2.2-1.1-4.6-2.2-7.1-3.1-2.5-1-5-1.8-7.6-2.5s-5.1-1.3-7.6-1.8-4.9-0.7-7.1-0.7c-2.9 0-5.3 0.4-7.2 1.2-2 0.8-3.6 1.9-4.8 3.3s-2.1 3-2.7 4.8c-0.5 1.8-0.8 3.7-0.8 5.6 0 3.4 0.6 6.1 1.8 8.3 1.2 2.1 2.8 3.9 5 5.2 2.1 1.3 4.3 2.4 6.6 3.3s4.6 1.7 6.7 2.5c3.4 1.2 6.8 2.7 10.2 4.4s6.5 4.2 9.2 7.3 5 7.2 6.7 12.1c1.7 5 2.6 11.3 2.6 18.9 0 8.4-1.1 15.7-3.2 21.9s-5.1 11.4-8.8 15.6-8.3 7.2-13.6 9.2-11.1 3-17.4 3-11.9-0.7-16.9-2.2-9.1-3.3-12.4-5.6v-29.3c5.3 3 10.2 5 14.7 6.1s8.7 1.6 12.6 1.6c3 0 5.8-0.3 8.4-1s4.8-1.7 6.7-3.1 3.4-3.2 4.4-5.4c1-2.3 1.5-4.9 1.5-8z"></path>
+                                <path class="st0 svelte-1ekzptq" d="m1059.4 246.4c-2.7 1.2-6 2.2-9.8 2.9s-7.3 1.1-10.6 1.1c-8.3 0-15.1-2-20.4-6.1-5.3-4-9-9.8-11.2-17.4-1.6-5.4-2.3-12.8-2.3-22.1v-77h-18.5v-29.8h18.5v-41.5h24.2v41.5h28.6v29.9h-28.6v72.2c0 5.7 0.6 10 1.7 12.7 2 4.7 6.1 7.1 12.2 7.1 2.8 0 5.6-0.3 8.3-1 2.8-0.7 5.4-1.5 7.8-2.5v30z"></path>
+                                <path class="st0 svelte-1ekzptq" d="m1137.1 126.8h-2c-7.4 0-13.9 1.7-19.6 5-5.6 3.3-10 8.4-13 15.3v99.5h-24.2v-148.6h20l2.2 20.7h0.4c2.9-7.6 6.8-13.5 11.8-17.9 5-4.3 11-6.5 18-6.5 2.5 0 4.6 0.2 6.3 0.6v31.9z"></path>
+                                <path class="st0 svelte-1ekzptq" d="m1195.1 250.4c-9.9 0-18.2-2.5-24.7-7.6s-11.5-11.9-14.8-20.5c-1.8-4.6-3.1-9.7-3.9-15.2-0.9-5.5-1.3-11.7-1.3-18.4v-90.7h24.2v86.9c0 5 0.2 9.3 0.7 13 0.5 3.6 1.2 6.8 2.1 9.4 1.6 4.5 3.9 7.8 6.9 10s6.6 3.3 10.7 3.3c4.4 0 8.1-1.2 11.2-3.7s5.4-6.2 7-11.2c1.6-4.8 2.3-11.5 2.3-20.1v-87.6h24.2v90.8c0 12.1-1.4 22.2-4.2 30.5-1.6 4.7-3.6 9-6.1 12.8s-5.4 7.1-8.8 9.8-7.2 4.8-11.4 6.3c-4.1 1.5-8.9 2.2-14.1 2.2z"></path>
+                                <path class="st0 svelte-1ekzptq" d="m1336.6 243.3c-3.1 1.9-6.8 3.6-11.2 5s-9.1 2.1-14 2.1c-7.1 0-13.8-1.5-20-4.6s-11.6-7.7-16.2-14c-4.6-6.2-8.3-14.1-10.9-23.7-2.7-9.6-4-20.7-4-33.5 0-14.3 1.5-26.6 4.6-36.8s7-18.5 11.9-24.9 10.3-11.1 16.4-14.1 12.1-4.5 18-4.5c4.4 0 8.7 0.6 12.8 1.8s7.8 2.8 11.1 4.8v29.6c-3-1.9-6.2-3.5-9.5-4.7-3.4-1.2-7-1.8-10.9-1.8s-7.6 0.9-11.1 2.7-6.7 4.6-9.4 8.5-4.9 9-6.5 15.4-2.4 14.1-2.4 23.1c0 6.5 0.6 12.7 1.8 18.5s3 10.7 5.4 14.8c2.3 4.1 5.3 7.4 9 9.9 3.6 2.5 7.9 3.8 12.9 3.8 4.4 0 8.4-0.7 12-2s7-3 10.2-4.9v29.5z"></path>
+                                <path class="st0 svelte-1ekzptq" d="m1418 246.4c-2.7 1.2-6 2.2-9.8 2.9s-7.3 1.1-10.6 1.1c-8.3 0-15.1-2-20.4-6.1-5.3-4-9-9.8-11.2-17.4-1.6-5.4-2.3-12.8-2.3-22.1v-77h-18.5v-29.8h18.5v-41.5h24.2v41.5h28.6v29.9h-28.5v72.2c0 5.7 0.6 10 1.7 12.7 2 4.7 6.1 7.1 12.2 7.1 2.8 0 5.6-0.3 8.3-1 2.8-0.7 5.4-1.5 7.8-2.5v30z"></path>
+                                <rect class="st0 svelte-1ekzptq" x="1437.5" y="98" width="24.2" height="148.6"></rect>
+                                <path class="st0 svelte-1ekzptq" d="m1583.2 172.4c0 11.7-1.2 22.3-3.5 31.9s-5.6 17.8-10 24.7c-4.3 6.8-9.5 12.1-15.7 15.9-6.1 3.7-13 5.6-20.5 5.6-7.8 0-14.7-1.9-20.9-5.6s-11.4-9-15.7-15.9c-4.3-6.8-7.6-15.1-9.9-24.7s-3.4-20.2-3.4-31.9 1.2-22.3 3.5-31.9 5.6-17.8 10-24.7c4.3-6.8 9.5-12.1 15.7-15.9 6.1-3.7 13-5.6 20.5-5.6 7.8 0 14.7 1.9 20.9 5.6s11.4 9 15.7 15.9c4.3 6.8 7.6 15.1 9.9 24.7s3.4 20.2 3.4 31.9zm-25 0c0-7.9-0.6-14.8-1.8-20.9-1.2-6-2.9-11.1-5.1-15.2s-4.8-7.2-7.9-9.2-6.4-3.1-10-3.1c-3.5 0-6.8 1-9.9 3.1-3 2-5.6 5.1-7.8 9.2s-3.9 9.1-5.1 15.2c-1.2 6-1.8 13-1.8 20.9s0.6 14.8 1.8 20.9c1.2 6 2.9 11.1 5.2 15.1 2.2 4 4.8 7.1 7.9 9.2 3 2.1 6.3 3.1 10 3.1 3.6 0 6.9-1 9.9-3.1s5.6-5.2 7.8-9.2 3.9-9.1 5.1-15.1c1.1-6.1 1.7-13.1 1.7-20.9z"></path>
+                                <path class="st0 svelte-1ekzptq" d="m1626.9 118.7h0.4c1.4-3.1 3.2-6.1 5.4-9 2.2-3 4.7-5.6 7.5-7.8s5.9-4.1 9.2-5.4c3.4-1.4 7-2.1 10.8-2.1 3.6 0 7.1 0.6 10.5 1.8s6.4 3.1 9.2 5.7 5.3 6 7.4 10.1 3.8 9.1 5.1 14.8c0.7 3.2 1.1 6.6 1.4 10.3 0.2 3.7 0.4 8 0.4 13v96.4h-24.2v-90.8c0-4-0.1-7.4-0.3-10.3s-0.6-5.4-1.1-7.5c-1.2-4.7-3.1-8.1-5.6-10.1s-5.5-3.1-9-3.1c-4.7 0-9.2 1.7-13.5 5s-8.2 8.2-11.5 14.5v102.3h-24.2v-148.5h20l2.1 20.7z"></path>
+                                <path class="st0 svelte-1ekzptq" d="m1764.4 203.5c0-3.2-0.6-5.8-1.8-7.8s-2.8-3.8-4.7-5.1c-2-1.4-4.2-2.6-6.8-3.6s-5.2-2-8-3.1c-3.5-1.4-6.9-3.1-10.2-5s-6.1-4.4-8.6-7.4c-2.5-3.1-4.5-6.9-5.9-11.6-1.5-4.6-2.2-10.3-2.2-17.1 0-8.3 1-15.5 3-21.5 2-6.1 4.6-11.1 8-15.1s7.3-6.9 11.7-8.9c4.5-1.9 9.2-2.9 14.1-2.9 6.1 0 11.7 0.7 17.1 2.2 5.3 1.5 10.1 3.4 14.4 5.7v29.6c-2.2-1.1-4.6-2.2-7.1-3.1-2.5-1-5-1.8-7.6-2.5s-5.1-1.3-7.6-1.8-4.9-0.7-7.1-0.7c-2.9 0-5.3 0.4-7.2 1.2-2 0.8-3.6 1.9-4.8 3.3s-2.1 3-2.7 4.8c-0.5 1.8-0.8 3.7-0.8 5.6 0 3.4 0.6 6.1 1.8 8.3 1.2 2.1 2.8 3.9 5 5.2 2.1 1.3 4.3 2.4 6.6 3.3s4.6 1.7 6.7 2.5c3.4 1.2 6.8 2.7 10.2 4.4s6.5 4.2 9.2 7.3 5 7.2 6.7 12.1c1.7 5 2.6 11.3 2.6 18.9 0 8.4-1.1 15.7-3.2 21.9s-5.1 11.4-8.8 15.6-8.3 7.2-13.6 9.2-11.1 3-17.4 3-11.9-0.7-16.9-2.2-9.1-3.3-12.4-5.6v-29.3c5.3 3 10.2 5 14.7 6.1s8.7 1.6 12.6 1.6c3 0 5.8-0.3 8.4-1s4.8-1.7 6.7-3.1 3.4-3.2 4.4-5.4c1-2.3 1.5-4.9 1.5-8z"></path>
+                            </svg></a>
+                        <ul class="svelte-1ekzptq">
+                            <li class="svelte-1ekzptq"><a href="/" class="link svelte-1ekzptq">Αρχική</a>
+
+                            </li>
+                            <li class="svelte-1ekzptq"><a href="/ypiresies" class="link svelte-1ekzptq">Υπηρεσίες</a>
+                                <ul class="submenu svelte-1ekzptq">
+                                    <li class="svelte-1ekzptq"><a href="/ypiresies/stampoto-dapedo" class="sublink svelte-1ekzptq">Σταμπωτό Δάπεδο</a>
+                                    </li>
+                                    <li class="svelte-1ekzptq"><a href="/ypiresies/viomichaniko-dapedo" class="sublink svelte-1ekzptq">Βιομηχανικό Δάπεδο</a>
+                                    </li>
+                                    <li class="svelte-1ekzptq"><a href="/ypiresies/epoxidiko-dapedo" class="sublink svelte-1ekzptq">Εποξειδικό Δάπεδο</a>
+                                    </li>
+                                    <li class="svelte-1ekzptq"><a href="/ypiresies/chtenisto-dapedo" class="sublink svelte-1ekzptq">Χτενιστό Δάπεδο</a>
+                                    </li>
+                                    <li class="svelte-1ekzptq"><a href="/ypiresies/rampa-psarokokkali" class="sublink svelte-1ekzptq">Ράμπα Ψαροκόκκαλη</a>
+                                    </li>
+                                    <li class="svelte-1ekzptq"><a href="/ypiresies/ygromonosi-me-asfaltopano" class="sublink svelte-1ekzptq">Υγρομόνωση με Ασφαλτόπανο</a>
+                                    </li>
+                                    <li class="svelte-1ekzptq"><a href="/ypiresies/monosi-me-polyourethaniko-yliko" class="sublink svelte-1ekzptq">Μόνωση με Πολυουρεθανικό Υλικό</a>
+                                    </li>
+                                    <li class="svelte-1ekzptq"><a href="/ypiresies/thermoprosopi-ktirion" class="sublink svelte-1ekzptq">Θερμοπρόσοψη Κτιρίων</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="svelte-1ekzptq"><a href="/etairia" class="link svelte-1ekzptq">Η εταιρία</a>
+
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="call-to-action svelte-1ekzptq"><button id="open" title="Menu" aria-label="Open mobile navigation" class="svelte-1ekzptq"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="svelte-1ekzptq">
+                                <path d="M19.4643 17.0213H0.535714C0.239866 17.0213 0 17.3071 0 17.6596V19.3617C0 19.7142 0.239866 20 0.535714 20H19.4643C19.7601 20 20 19.7142 20 19.3617V17.6596C20 17.3071 19.7601 17.0213 19.4643 17.0213ZM19.4643 8.51064H0.535714C0.239866 8.51064 0 8.79644 0 9.14894V10.8511C0 11.2036 0.239866 11.4894 0.535714 11.4894H19.4643C19.7601 11.4894 20 11.2036 20 10.8511V9.14894C20 8.79644 19.7601 8.51064 19.4643 8.51064ZM19.4643 0H0.535714C0.239866 0 0 0.285797 0 0.638296V2.34042C0 2.69292 0.239866 2.97872 0.535714 2.97872H19.4643C19.7601 2.97872 20 2.69292 20 2.34042V0.638296C20 0.285797 19.7601 0 19.4643 0Z"></path>
+                            </svg></button>
+                        <a href="/epikoinonia" class="button inverted svelte-1ekzptq">Επικοινωνία</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="section has-component" id="zsczi">
+        <div class="component"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.672940610186!2d23.86227791559742!3d38.00808850647402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a19bd38a5fd783%3A0x1ba489ae294dad58!2zzqDOuc61z4HOr86xz4IgMjEsIM6Tzq3Pgc6xzrrOsc-CIDE1MyA0NA!5e0!3m2!1sel!2sgr!4v1652377966889!5m2!1sel!2sgr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Χάρτης"></iframe></div>
+    </div>
+    <div class="section has-component svelte-1tuhct5" id="nunib">
+        <div class="component svelte-1tuhct5">
+            <section class="section-container svelte-1tuhct5">
+                <div class="branches svelte-1tuhct5">
+                    <div class="svelte-1tuhct5">
+                        <h3 class="svelte-1tuhct5">Κεντρικά</h3>
+                        <p class="svelte-1tuhct5">ΠΙΕΡΙΑΣ 21Α, 15344, ΓΕΡΑΚΑΣ</p>
+                        <p class="svelte-1tuhct5"><strong class="svelte-1tuhct5">Τηλέφωνο:</strong> <a href="tel:6937279097" class="svelte-1tuhct5">6937 2790 97</a>, <a href="tel:6937279096" class="svelte-1tuhct5">6937 2790 96</a></p>
+                        <p class="svelte-1tuhct5"><strong class="svelte-1tuhct5">Email:</strong> <a href="#" title="Στείλτε μας email" class="cryptedmail svelte-1tuhct5" data-name="info" data-domain="myconstructions" data-tld="gr"> </a></p>
+                    </div>
+                    <div class="svelte-1tuhct5">
+                        <h3 class="svelte-1tuhct5">Αποθήκες</h3>
+                        <p class="svelte-1tuhct5">ΔΑΒΑΚΗ ΠΙΝΔΟΥ 39, 17236, ΥΜΗΤΤΟΣ</p>
+
+
+                    </div>
+                </div>
+                <form action="https://mailgate.dws.gr" method="post" class="svelte-1tuhct5"><input type="hidden" name="_to" value="mytkolli_ee@yahoo.com" class="svelte-1tuhct5">
+                    <input type="hidden" name="_formName" value="Επικοινωνία από myconstructions.gr" class="svelte-1tuhct5">
+                    <input type="hidden" name="_redirectTo" value="https://www.myconstructions.gr/" class="svelte-1tuhct5">
+                    <input id="TEmail" type="email" name="_t_email" style="display: none;" class="svelte-1tuhct5">
+                    <input type="text" name="Name" placeholder="Ονοματεπώνυμο *" required class="svelte-1tuhct5">
+                    <input type="text" name="Phone" placeholder="Τηλέφωνο *" required class="svelte-1tuhct5">
+                    <input type="email" name="_replyTo" placeholder="Email *" required class="svelte-1tuhct5">
+                    <textarea name="Message" placeholder="Το μήνυμα σας *" required class="svelte-1tuhct5"></textarea>
+                    <button class="button svelte-1tuhct5" type="submit">Αποστολή</button>
+                </form>
+            </section>
+        </div>
+    </div>
+    <div class="section has-component" id="btzpd">
+        <div class="component">
+            <footer class="svelte-6j66jl">
+                <div class="section-container svelte-6j66jl">
+                    <div class="svelte-6j66jl">
+                        <h3 class="svelte-6j66jl">Σχετικά με εμάς</h3>
+                        <svg viewBox="0 0 1790 322" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" class="svelte-6j66jl">
+                            <polygon class="st0 svelte-6j66jl" points="173 105.8 122.6 0.2 5 249.8 105.8 249.8"></polygon>
+                            <polyline class="st0 svelte-6j66jl" points="355.5 146.6 406.2 249.8 507 249.8 405.9 38.6"></polyline>
+                            <polyline class="st1 svelte-6j66jl" points="158.6 137 173 105.8 122.6 0.2"></polyline>
+                            <polyline class="st1 svelte-6j66jl" points="355.4 146.6 367.5 170.6 405.9 38.6 405.8 38.6"></polyline>
+                            <polygon class="st2 svelte-6j66jl" points="324.8 213 405.9 38.6 307.8 38.6 274.8 108 223.5 0.2 122.6 0.2 224.3 213.8 224.6 213.8 173.4 321.8 274.2 321.8 324.4 213.8 325.2 213.8"></polygon>
+                            <rect class="st2 svelte-6j66jl" x="1436.9" y="24.6" width="25.4" height="39.4"></rect>
+                            <path class="st0 svelte-6j66jl" d="m625.8 69.3c-6.8 0-13.1 1.7-18.8 5.1-5.8 3.4-10.7 8.3-14.8 14.7s-7.3 14.4-9.6 23.8c-2.3 9.5-3.5 20.3-3.5 32.4s1.1 22.7 3.2 31.8 5.1 16.8 9.1 22.9c3.9 6.1 8.8 10.8 14.4 13.9 5.7 3.1 12.1 4.7 19.3 4.7 5.2 0 10.4-0.6 15.8-1.8s10.4-3 15.1-5.4v32.4c-4.8 2-9.9 3.7-15.4 4.8-5.5 1.2-11.2 1.8-17.2 1.8-11.6 0-21.7-2.5-30.5-7.4-8.8-5-16.1-12-22-21s-10.3-19.9-13.3-32.5-4.4-26.5-4.4-41.8c0-15.6 1.6-30.2 4.7-43.5 3.2-13.4 7.7-25 13.7-34.8s13.4-17.5 22.4-23.2c9-5.6 19.1-8.5 30.4-8.6 5.8 0 11.3 0.6 16.4 1.8 5.2 1.2 9.8 2.8 14 5v31.9c-5.4-2.6-10.5-4.3-15.2-5.4s-9.3-1.6-13.8-1.6z"></path>
+                            <path class="st0 svelte-6j66jl" d="m772.9 172.4c0 11.7-1.2 22.3-3.5 31.9s-5.6 17.8-10 24.7c-4.3 6.8-9.5 12.1-15.7 15.9-6.1 3.7-13 5.6-20.5 5.6-7.8 0-14.7-1.9-20.9-5.6s-11.4-9-15.7-15.9c-4.3-6.8-7.6-15.1-9.9-24.7s-3.4-20.2-3.4-31.9 1.2-22.3 3.5-31.9 5.6-17.8 10-24.7c4.3-6.8 9.5-12.1 15.7-15.9 6.1-3.7 13-5.6 20.5-5.6 7.8 0 14.7 1.9 20.9 5.6s11.4 9 15.7 15.9c4.3 6.8 7.6 15.1 9.9 24.7 2.2 9.6 3.4 20.2 3.4 31.9zm-25.1 0c0-7.9-0.6-14.8-1.8-20.9-1.2-6-2.9-11.1-5.1-15.2s-4.8-7.2-7.9-9.2-6.4-3.1-10-3.1c-3.5 0-6.8 1-9.9 3.1-3 2-5.6 5.1-7.8 9.2s-3.9 9.1-5.1 15.2c-1.2 6-1.8 13-1.8 20.9s0.6 14.8 1.8 20.9c1.2 6 2.9 11.1 5.2 15.1 2.2 4 4.8 7.1 7.9 9.2 3 2.1 6.3 3.1 10 3.1 3.6 0 6.9-1 9.9-3.1s5.6-5.2 7.8-9.2 3.9-9.1 5.1-15.1c1.1-6.1 1.7-13.1 1.7-20.9z"></path>
+                            <path class="st0 svelte-6j66jl" d="m816.6 118.7h0.4c1.4-3.1 3.2-6.1 5.4-9 2.2-3 4.7-5.6 7.5-7.8s5.9-4.1 9.2-5.4c3.4-1.4 7-2.1 10.8-2.1 3.6 0 7.1 0.6 10.5 1.8s6.4 3.1 9.2 5.7 5.3 6 7.4 10.1 3.8 9.1 5.1 14.8c0.7 3.2 1.1 6.6 1.4 10.3 0.2 3.7 0.4 8 0.4 13v96.4h-24.2v-90.8c0-4-0.1-7.4-0.3-10.3s-0.6-5.4-1.1-7.5c-1.2-4.7-3.1-8.1-5.6-10.1s-5.5-3.1-9-3.1c-4.7 0-9.2 1.7-13.5 5s-8.2 8.2-11.5 14.5v102.3h-24.2v-148.5h20l2.1 20.7z"></path>
+                            <path class="st0 svelte-6j66jl" d="m954.1 203.5c0-3.2-0.6-5.8-1.8-7.8s-2.8-3.8-4.7-5.1c-2-1.4-4.2-2.6-6.8-3.6s-5.2-2-8-3.1c-3.5-1.4-6.9-3.1-10.2-5s-6.1-4.4-8.6-7.4c-2.5-3.1-4.5-6.9-5.9-11.6-1.5-4.6-2.2-10.3-2.2-17.1 0-8.3 1-15.5 3-21.5 2-6.1 4.6-11.1 8-15.1s7.3-6.9 11.7-8.9c4.5-1.9 9.2-2.9 14.1-2.9 6.1 0 11.7 0.7 17.1 2.2 5.3 1.5 10.1 3.4 14.4 5.7v29.6c-2.2-1.1-4.6-2.2-7.1-3.1-2.5-1-5-1.8-7.6-2.5s-5.1-1.3-7.6-1.8-4.9-0.7-7.1-0.7c-2.9 0-5.3 0.4-7.2 1.2-2 0.8-3.6 1.9-4.8 3.3s-2.1 3-2.7 4.8c-0.5 1.8-0.8 3.7-0.8 5.6 0 3.4 0.6 6.1 1.8 8.3 1.2 2.1 2.8 3.9 5 5.2 2.1 1.3 4.3 2.4 6.6 3.3s4.6 1.7 6.7 2.5c3.4 1.2 6.8 2.7 10.2 4.4s6.5 4.2 9.2 7.3 5 7.2 6.7 12.1c1.7 5 2.6 11.3 2.6 18.9 0 8.4-1.1 15.7-3.2 21.9s-5.1 11.4-8.8 15.6-8.3 7.2-13.6 9.2-11.1 3-17.4 3-11.9-0.7-16.9-2.2-9.1-3.3-12.4-5.6v-29.3c5.3 3 10.2 5 14.7 6.1s8.7 1.6 12.6 1.6c3 0 5.8-0.3 8.4-1s4.8-1.7 6.7-3.1 3.4-3.2 4.4-5.4c1-2.3 1.5-4.9 1.5-8z"></path>
+                            <path class="st0 svelte-6j66jl" d="m1059.4 246.4c-2.7 1.2-6 2.2-9.8 2.9s-7.3 1.1-10.6 1.1c-8.3 0-15.1-2-20.4-6.1-5.3-4-9-9.8-11.2-17.4-1.6-5.4-2.3-12.8-2.3-22.1v-77h-18.5v-29.8h18.5v-41.5h24.2v41.5h28.6v29.9h-28.6v72.2c0 5.7 0.6 10 1.7 12.7 2 4.7 6.1 7.1 12.2 7.1 2.8 0 5.6-0.3 8.3-1 2.8-0.7 5.4-1.5 7.8-2.5v30z"></path>
+                            <path class="st0 svelte-6j66jl" d="m1137.1 126.8h-2c-7.4 0-13.9 1.7-19.6 5-5.6 3.3-10 8.4-13 15.3v99.5h-24.2v-148.6h20l2.2 20.7h0.4c2.9-7.6 6.8-13.5 11.8-17.9 5-4.3 11-6.5 18-6.5 2.5 0 4.6 0.2 6.3 0.6v31.9z"></path>
+                            <path class="st0 svelte-6j66jl" d="m1195.1 250.4c-9.9 0-18.2-2.5-24.7-7.6s-11.5-11.9-14.8-20.5c-1.8-4.6-3.1-9.7-3.9-15.2-0.9-5.5-1.3-11.7-1.3-18.4v-90.7h24.2v86.9c0 5 0.2 9.3 0.7 13 0.5 3.6 1.2 6.8 2.1 9.4 1.6 4.5 3.9 7.8 6.9 10s6.6 3.3 10.7 3.3c4.4 0 8.1-1.2 11.2-3.7s5.4-6.2 7-11.2c1.6-4.8 2.3-11.5 2.3-20.1v-87.6h24.2v90.8c0 12.1-1.4 22.2-4.2 30.5-1.6 4.7-3.6 9-6.1 12.8s-5.4 7.1-8.8 9.8-7.2 4.8-11.4 6.3c-4.1 1.5-8.9 2.2-14.1 2.2z"></path>
+                            <path class="st0 svelte-6j66jl" d="m1336.6 243.3c-3.1 1.9-6.8 3.6-11.2 5s-9.1 2.1-14 2.1c-7.1 0-13.8-1.5-20-4.6s-11.6-7.7-16.2-14c-4.6-6.2-8.3-14.1-10.9-23.7-2.7-9.6-4-20.7-4-33.5 0-14.3 1.5-26.6 4.6-36.8s7-18.5 11.9-24.9 10.3-11.1 16.4-14.1 12.1-4.5 18-4.5c4.4 0 8.7 0.6 12.8 1.8s7.8 2.8 11.1 4.8v29.6c-3-1.9-6.2-3.5-9.5-4.7-3.4-1.2-7-1.8-10.9-1.8s-7.6 0.9-11.1 2.7-6.7 4.6-9.4 8.5-4.9 9-6.5 15.4-2.4 14.1-2.4 23.1c0 6.5 0.6 12.7 1.8 18.5s3 10.7 5.4 14.8c2.3 4.1 5.3 7.4 9 9.9 3.6 2.5 7.9 3.8 12.9 3.8 4.4 0 8.4-0.7 12-2s7-3 10.2-4.9v29.5z"></path>
+                            <path class="st0 svelte-6j66jl" d="m1418 246.4c-2.7 1.2-6 2.2-9.8 2.9s-7.3 1.1-10.6 1.1c-8.3 0-15.1-2-20.4-6.1-5.3-4-9-9.8-11.2-17.4-1.6-5.4-2.3-12.8-2.3-22.1v-77h-18.5v-29.8h18.5v-41.5h24.2v41.5h28.6v29.9h-28.5v72.2c0 5.7 0.6 10 1.7 12.7 2 4.7 6.1 7.1 12.2 7.1 2.8 0 5.6-0.3 8.3-1 2.8-0.7 5.4-1.5 7.8-2.5v30z"></path>
+                            <rect class="st0 svelte-6j66jl" x="1437.5" y="98" width="24.2" height="148.6"></rect>
+                            <path class="st0 svelte-6j66jl" d="m1583.2 172.4c0 11.7-1.2 22.3-3.5 31.9s-5.6 17.8-10 24.7c-4.3 6.8-9.5 12.1-15.7 15.9-6.1 3.7-13 5.6-20.5 5.6-7.8 0-14.7-1.9-20.9-5.6s-11.4-9-15.7-15.9c-4.3-6.8-7.6-15.1-9.9-24.7s-3.4-20.2-3.4-31.9 1.2-22.3 3.5-31.9 5.6-17.8 10-24.7c4.3-6.8 9.5-12.1 15.7-15.9 6.1-3.7 13-5.6 20.5-5.6 7.8 0 14.7 1.9 20.9 5.6s11.4 9 15.7 15.9c4.3 6.8 7.6 15.1 9.9 24.7s3.4 20.2 3.4 31.9zm-25 0c0-7.9-0.6-14.8-1.8-20.9-1.2-6-2.9-11.1-5.1-15.2s-4.8-7.2-7.9-9.2-6.4-3.1-10-3.1c-3.5 0-6.8 1-9.9 3.1-3 2-5.6 5.1-7.8 9.2s-3.9 9.1-5.1 15.2c-1.2 6-1.8 13-1.8 20.9s0.6 14.8 1.8 20.9c1.2 6 2.9 11.1 5.2 15.1 2.2 4 4.8 7.1 7.9 9.2 3 2.1 6.3 3.1 10 3.1 3.6 0 6.9-1 9.9-3.1s5.6-5.2 7.8-9.2 3.9-9.1 5.1-15.1c1.1-6.1 1.7-13.1 1.7-20.9z"></path>
+                            <path class="st0 svelte-6j66jl" d="m1626.9 118.7h0.4c1.4-3.1 3.2-6.1 5.4-9 2.2-3 4.7-5.6 7.5-7.8s5.9-4.1 9.2-5.4c3.4-1.4 7-2.1 10.8-2.1 3.6 0 7.1 0.6 10.5 1.8s6.4 3.1 9.2 5.7 5.3 6 7.4 10.1 3.8 9.1 5.1 14.8c0.7 3.2 1.1 6.6 1.4 10.3 0.2 3.7 0.4 8 0.4 13v96.4h-24.2v-90.8c0-4-0.1-7.4-0.3-10.3s-0.6-5.4-1.1-7.5c-1.2-4.7-3.1-8.1-5.6-10.1s-5.5-3.1-9-3.1c-4.7 0-9.2 1.7-13.5 5s-8.2 8.2-11.5 14.5v102.3h-24.2v-148.5h20l2.1 20.7z"></path>
+                            <path class="st0 svelte-6j66jl" d="m1764.4 203.5c0-3.2-0.6-5.8-1.8-7.8s-2.8-3.8-4.7-5.1c-2-1.4-4.2-2.6-6.8-3.6s-5.2-2-8-3.1c-3.5-1.4-6.9-3.1-10.2-5s-6.1-4.4-8.6-7.4c-2.5-3.1-4.5-6.9-5.9-11.6-1.5-4.6-2.2-10.3-2.2-17.1 0-8.3 1-15.5 3-21.5 2-6.1 4.6-11.1 8-15.1s7.3-6.9 11.7-8.9c4.5-1.9 9.2-2.9 14.1-2.9 6.1 0 11.7 0.7 17.1 2.2 5.3 1.5 10.1 3.4 14.4 5.7v29.6c-2.2-1.1-4.6-2.2-7.1-3.1-2.5-1-5-1.8-7.6-2.5s-5.1-1.3-7.6-1.8-4.9-0.7-7.1-0.7c-2.9 0-5.3 0.4-7.2 1.2-2 0.8-3.6 1.9-4.8 3.3s-2.1 3-2.7 4.8c-0.5 1.8-0.8 3.7-0.8 5.6 0 3.4 0.6 6.1 1.8 8.3 1.2 2.1 2.8 3.9 5 5.2 2.1 1.3 4.3 2.4 6.6 3.3s4.6 1.7 6.7 2.5c3.4 1.2 6.8 2.7 10.2 4.4s6.5 4.2 9.2 7.3 5 7.2 6.7 12.1c1.7 5 2.6 11.3 2.6 18.9 0 8.4-1.1 15.7-3.2 21.9s-5.1 11.4-8.8 15.6-8.3 7.2-13.6 9.2-11.1 3-17.4 3-11.9-0.7-16.9-2.2-9.1-3.3-12.4-5.6v-29.3c5.3 3 10.2 5 14.7 6.1s8.7 1.6 12.6 1.6c3 0 5.8-0.3 8.4-1s4.8-1.7 6.7-3.1 3.4-3.2 4.4-5.4c1-2.3 1.5-4.9 1.5-8z"></path>
+                        </svg>
+                        <ul>
+                            <li class="svelte-6j66jl"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden role="img" width="20" height="20" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START -->
+                                    <path fill="currentColor" d="M12 3a3 3 0 0 0-3 3c0 3 5 7-3 7a2 2 0 0 0-2 2v2h16v-2a2 2 0 0 0-2-2c-8 0-3-4-3-7c0-2-1.34-3-3-3M6 19v2h12v-2H6Z" /><!-- HTML_TAG_END -->
+                                </svg>ΜΥΤΚΟΛΛΙ Ε.Ε.</li>
+                            <li class="svelte-6j66jl"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden role="img" width="20" height="20" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START -->
+                                    <path fill="currentColor" d="M15.19 21C14.12 19.43 13 17.36 13 15.5c0-1.83.96-3.5 2.4-4.5H15V9h2v1.23c.5-.14 1-.23 1.5-.23c.17 0 .34 0 .5.03V3H5v18h6v-3.5h2V21h2.19M15 5h2v2h-2V5M9 19H7v-2h2v2m0-4H7v-2h2v2m0-4H7V9h2v2m0-4H7V5h2v2m2-2h2v2h-2V5m0 4h2v2h-2V9m0 6v-2h2v2h-2m7.5-3c-1.9 0-3.5 1.61-3.5 3.5c0 2.61 3.5 6.5 3.5 6.5s3.5-3.89 3.5-6.5c0-1.89-1.6-3.5-3.5-3.5m0 4.81c-.7 0-1.2-.6-1.2-1.2c0-.7.6-1.2 1.2-1.2s1.2.59 1.2 1.2c.1.6-.5 1.2-1.2 1.2Z" /><!-- HTML_TAG_END -->
+                                </svg>ΠΙΕΡΙΑΣ 21Α, 15344, ΓΕΡΑΚΑΣ</li>
+                            <li class="svelte-6j66jl"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden role="img" width="20" height="20" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START -->
+                                    <path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.25c1.12.37 2.32.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2Z" /><!-- HTML_TAG_END -->
+                                </svg><a href="tel:6937279097" class="svelte-6j66jl">6937 2790 97</a></li>
+                            <li class="svelte-6j66jl"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden role="img" width="20" height="20" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START -->
+                                    <path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.25c1.12.37 2.32.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2Z" /><!-- HTML_TAG_END -->
+                                </svg><a href="tel:6937279096" class="svelte-6j66jl">6937 2790 96</a></li>
+                        </ul>
+                    </div>
+                    <div class="svelte-6j66jl">
+                        <h3 class="svelte-6j66jl">Υπηρεσίες</h3>
+                        <ul id="services">
+                            <li class="svelte-6j66jl"><a href="/ypiresies/stampoto-dapedo" class="svelte-6j66jl">Σταμπωτό Δάπεδο</a></li>
+                            <li class="svelte-6j66jl"><a href="/ypiresies/viomichaniko-dapedo" class="svelte-6j66jl">Βιομηχανικό Δάπεδο</a></li>
+                            <li class="svelte-6j66jl"><a href="/ypiresies/epoxidiko-dapedo" class="svelte-6j66jl">Εποξειδικό Δάπεδο</a></li>
+                            <li class="svelte-6j66jl"><a href="/ypiresies/chtenisto-dapedo" class="svelte-6j66jl">Χτενιστό Δάπεδο</a></li>
+                            <li class="svelte-6j66jl"><a href="/ypiresies/rampa-psarokokkali" class="svelte-6j66jl">Ράμπα Ψαροκόκκαλη</a></li>
+                            <li class="svelte-6j66jl"><a href="/ypiresies/ygromonosi-me-asfaltopano" class="svelte-6j66jl">Υγρομόνωση με Ασφαλτόπανο</a></li>
+                            <li class="svelte-6j66jl"><a href="/ypiresies/monosi-me-polyourethaniko-yliko" class="svelte-6j66jl">Μόνωση με Πολυουρεθανικό Υλικό</a></li>
+                            <li class="svelte-6j66jl"><a href="/ypiresies/thermoprosopi-ktirion" class="svelte-6j66jl">Θερμοπρόσοψη Κτιρίων</a></li>
+                        </ul>
+                    </div>
+                    <div class="svelte-6j66jl">
+                        <h3 class="svelte-6j66jl">Εγγραφείτε στο Newsletter</h3>
+                        <p>Για να λαμβάνετε όλα τα νέα &amp; τις προσφορές μας</p>
+                        <input type="email" placeholder="Το email σας" class="svelte-6j66jl" value="">
+                        <button class="button svelte-6j66jl">Εγγραφή</button>
+                    </div>
+                </div>
+                <div class="copyright svelte-6j66jl">Πνευματικά Δικαιώματα Κατοχυρωμένα © 2022 - 2023 ΜΥΤΚΟΛΛΙ Ε.Ε.</div>
+            </footer>
+        </div>
+    </div>
+
+    <script type="module">
+        const path = window.location.pathname === '/' ? '' : window.location.pathname
+        const [{
+            default: App
+        }, data] = await Promise.all([
+            import(path + '/_module.js'),
+            fetch('/en.json').then(res => res.json())
+        ]).catch(e => console.error(e))
+        new App({
+            target: document.querySelector('body'),
+            hydrate: true,
+        })
+    </script>
+</body>
+
+</html>
