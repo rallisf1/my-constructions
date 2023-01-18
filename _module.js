@@ -8303,7 +8303,7 @@ function create_fragment$c(ctx) {
 				phone2: "6937 2790 96",
 				cplgk: {},
 				jsdoj: {
-					"video": "https://www.myconstructions.gr/header.mp4"
+					"video": "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 				},
 				pfjyn: {
 					"title": "ΜΥΤΚΟΛΛΙ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ",
@@ -8491,7 +8491,7 @@ function create_fragment$c(ctx) {
 				cxxvx: {},
 				seo_title: "Μυτκόλλι Κατασκευαστική | Μονώσεις - Δάπεδα - Εργολαβίες",
 				seo_description: "Δάπεδα σταμπτωτά, βιομηχανικά, εποξειδικά, χτενιστά, ράμπες. Υγρομόνωση, θερμομόνωση, θερμοπρόσοψη. Κατασκευές & τεχνοτροπίες από μπετόν.",
-				video: "https://www.myconstructions.gr/header.mp4"
+				video: "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 			}
 		});
 
@@ -8591,7 +8591,7 @@ function create_fragment$c(ctx) {
 				phone2: "6937 2790 96",
 				cplgk: {},
 				jsdoj: {
-					"video": "https://www.myconstructions.gr/header.mp4"
+					"video": "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 				},
 				pfjyn: {
 					"title": "ΜΥΤΚΟΛΛΙ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ",
@@ -8878,7 +8878,7 @@ function create_fragment$c(ctx) {
 				phone2: "6937 2790 96",
 				cplgk: {},
 				jsdoj: {
-					"video": "https://www.myconstructions.gr/header.mp4"
+					"video": "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 				},
 				pfjyn: {
 					"title": "ΜΥΤΚΟΛΛΙ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ",
@@ -9165,7 +9165,7 @@ function create_fragment$c(ctx) {
 				phone2: "6937 2790 96",
 				cplgk: {},
 				jsdoj: {
-					"video": "https://www.myconstructions.gr/header.mp4"
+					"video": "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 				},
 				pfjyn: {
 					"title": "ΜΥΤΚΟΛΛΙ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ",
@@ -9454,7 +9454,7 @@ function create_fragment$c(ctx) {
 				phone2: "6937 2790 96",
 				cplgk: {},
 				jsdoj: {
-					"video": "https://www.myconstructions.gr/header.mp4"
+					"video": "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 				},
 				pfjyn: {
 					"title": "ΜΥΤΚΟΛΛΙ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ",
@@ -9780,7 +9780,7 @@ function create_fragment$c(ctx) {
 				phone2: "6937 2790 96",
 				cplgk: {},
 				jsdoj: {
-					"video": "https://www.myconstructions.gr/header.mp4"
+					"video": "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 				},
 				pfjyn: {
 					"title": "ΜΥΤΚΟΛΛΙ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ",
@@ -10118,7 +10118,7 @@ function create_fragment$c(ctx) {
 				phone2: "6937 2790 96",
 				cplgk: {},
 				jsdoj: {
-					"video": "https://www.myconstructions.gr/header.mp4"
+					"video": "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 				},
 				pfjyn: {
 					"title": "ΜΥΤΚΟΛΛΙ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ",
@@ -10429,7 +10429,7 @@ function create_fragment$c(ctx) {
 				phone2: "6937 2790 96",
 				cplgk: {},
 				jsdoj: {
-					"video": "https://www.myconstructions.gr/header.mp4"
+					"video": "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 				},
 				pfjyn: {
 					"title": "ΜΥΤΚΟΛΛΙ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ",
@@ -10727,7 +10727,7 @@ function create_fragment$c(ctx) {
 				phone2: "6937 2790 96",
 				cplgk: {},
 				jsdoj: {
-					"video": "https://www.myconstructions.gr/header.mp4"
+					"video": "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 				},
 				pfjyn: {
 					"title": "ΜΥΤΚΟΛΛΙ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ",
@@ -11057,7 +11057,7 @@ function create_fragment$c(ctx) {
 				phone2: "6937 2790 96",
 				cplgk: {},
 				jsdoj: {
-					"video": "https://www.myconstructions.gr/header.mp4"
+					"video": "https://zzyumdkmbkvyfpswmpyz.supabase.co/storage/v1/object/public/sites/my-constructions/assets/header.mp4"
 				},
 				pfjyn: {
 					"title": "ΜΥΤΚΟΛΛΙ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ",
